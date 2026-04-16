@@ -1,48 +1,56 @@
-name: Deploy Docusaurus (Bun)
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+        uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
       - name: Install dependencies
         run: bun install
 
-      - name: Build website
-        run: bun run build
+      - name: Generate static site
+        run: bun nuxt build --extends docus
+
+      - name: Configure Github Pages
+        uses: actions/configure-pages@v3
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: .output/public
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    runs-on: ubuntu-latest
+    needs: build
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
