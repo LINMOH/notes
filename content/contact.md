@@ -36,6 +36,7 @@ navigation: false
 - [GitHub](https://github.com/LINMOH)
 - [Codeforces](https://codeforces.com/profile/LINMOHAN)
 - [洛谷](https://www.luogu.com.cn/user/1520652)
+- [QQ: 2113836986](https://qm.qq.com/cgi-bin/qm/qr?k=tnjMHnEtiEZ1ZxjxzdH3RaXlLTnTzGBX) 快点加我！
 
 
 也可以看看我的网站：
