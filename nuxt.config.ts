@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     build: {
       markdown: {
         highlight: {
-          langs: ['cpp', 'c', 'python', 'rust']
+          langs: ['cpp', 'c', 'python', 'rust', 'go']
         }
       }
     }
