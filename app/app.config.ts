@@ -21,7 +21,7 @@ export default defineAppConfig({
   github: {
     branch: 'master',
     url: 'https://github.com/linmoh/notes',
-    rootDir: 'content',
+    rootDir: '',
     edit: true
   },
 
