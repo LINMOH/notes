@@ -2,9 +2,7 @@ import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   extends: ["docus"],
-
   css: ["katex/dist/katex.min.css"],
-
   content: {
     build: {
       markdown: {
@@ -16,4 +14,14 @@ export default defineNuxtConfig({
       },
     },
   },
+  vite: {
+    optimizeDeps: {
+      include: ['markmap-lib', 'markmap-view']
+    },
+    build: {
+      commonjsOptions: {
+        include: [/node_modules/]
+      }
+    }
+  }
 });
