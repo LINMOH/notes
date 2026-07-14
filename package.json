@@ -5,6 +5,8 @@
     "build": "nuxt build"
   },
   "dependencies": {
+    "@iconify-json/lucide": "^1.2.103",
+    "@iconify-json/simple-icons": "^1.2.78",
     "better-sqlite3": "^12.9.0",
     "docus": "^5.10.0",
     "katex": "^0.16.45",
@@ -13,8 +15,5 @@
     "nuxt": "^4.4.2",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
-  },
-  "devDependencies": {
-    "@iconify-json/lucide": "^1.2.103"
   }
 }
