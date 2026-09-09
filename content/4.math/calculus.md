@@ -9,6 +9,14 @@ navigation:
 
 我认为学数学是不用笔记的，这里只放习题解答吧。又因为我比较懒，习题解答只挑我觉得有价值的做。
 
+多项式：
+
+$$ P(x) = c_{n}x^{n} + c_{n - 1}x^{n - 1} + ... + c_{1}x + c_{0} $$
+
+有理式：
+
+$$ f(x) = \frac{P(x)}{Q(x)} $$
+
 ## 极限
 
 $$\lim_{x \to a} f(x) = L \quad \Longleftrightarrow \quad \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L, L \in \mathbb{R} $$
@@ -154,3 +162,51 @@ $$ \lim\limits_{x \to 2^+} g(x) \neq \lim\limits_{x \to 2^-} g(x) $$
 $ \lim\limits_{x \to 2} g(x) $ 不存在
 
 3. 略
+
+**[2.4.19]**
+
+$$ \lim_{x \to 9} (1 - \frac{1}{3}x) = -2 $$
+
+初步分析：
+
+$$ \text{如果} 0 < \left| x - 9 \right| < \delta, 则有 \left| (1 - \frac{1}{3}x) -(-2) \right| < \varepsilon $$
+
+$$ \text{而} \left| (1 - \frac{1}{3}x) -(-2) \right| = \left| 3 - \frac{1}{3}x \right| = \frac{1}{3} \left| x - 9 \right| $$
+
+$$ \text{因此，我们要找到} \delta \text{使得} $$
+
+$$ \text{如果} 0 < \left| x - 9 \right| < \delta, 则有 \frac{1}{3} \left| x - 9 \right| < \varepsilon $$
+
+$$ \text{也就是}  $$
+
+$$ \text{如果} 0 < \left| x - 9 \right| < \delta, 则有  \left| x - 9 \right| < 3 \varepsilon $$
+
+$$ \text{这表明我们应该选取} \delta = 3 \varepsilon $$
+
+证明：
+
+$$ \text{给定} \varepsilon > 0, \text{令} \delta = 3 \varepsilon, \text{如果} 0 < \left| x - 9 \right| < \delta, 则有 $$
+
+$$ \left| (1 - \frac{1}{3}x) -(-2) \right| = \left| 3 - \frac{1}{3}x \right| = \frac{1}{3} \left| x - 9 \right| $$
+
+$$ \text{因此} $$
+
+$$ \text{如果} 0 < \left| x - 9 \right| < \delta, 则有 \left| (1 - \frac{1}{3}x) -(-2) \right| < \varepsilon $$
+
+$$ \text{由极限的定义可知}, \lim_{x \to 9} (1 - \frac{1}{3}x) = -2 $$
+
+**[2.5.13]**
+
+证明 $ f(x) = 3x^2 + (x + 2)^5 $ 在 $ -1 $ 处是连续的。
+
+证明：
+
+$ f(x) $ 是多项式函数，且定义域是 $ \mathbb{R} $，则 $ f(x) $ 在 $ \mathbb{R} $ 上是连续函数，即 $ f(x) $ 在 $ -1 $ 处连续。
+
+**[2.5.14]**
+
+证明 $ f(t) = \frac{t^2 + 5t}{2t + 1} $ 在 $ 2 $ 处是连续的。
+
+证明：
+
+$ t^2 + 5t $ 和 $ 2t + 1 $ 都是多项式函数，则二者在 $ 2 $ 处是连续的，且当 $ t = 2 $ 时 $ 2t + 1 \neq 0 $，则 $ f(t) $ 在 $ 2 $ 处是连续的。
