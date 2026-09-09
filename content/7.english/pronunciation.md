@@ -5,17 +5,15 @@ navigation:
   icon: i-lucide-volume-2
 ---
 
-# 发音
-
 up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](https://space.bilibili.com/286263737)、[赖世雄](https://space.bilibili.com/1322170180)、[Rachel](https://space.bilibili.com/631186842)
 
 三种音标：**DJ 英式音标**、KK 美式音标、IPA 国际音标。DJ ≈ IPA。
 
-# 英语国际音标表
+## 英语国际音标表
 
-## 元音
+### 元音
 
-### 单元音
+#### 单元音
 
 **短元音**
 * /ɪ/ : **sit** /sɪt/, **big** /bɪɡ/
@@ -33,7 +31,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 * /uː/ : **too** /tuː/, **blue** /bluː/
 * /ɑː/ : **car** /kɑː/, **father** /ˈfɑːðə/
 
-### 双元音
+#### 双元音
 * /eɪ/ : **day** /deɪ/, **make** /meɪk/
 * /aɪ/ : **my** /maɪ/, **like** /laɪk/
 * /ɔɪ/ : **boy** /bɔɪ/, **toy** /tɔɪ/
@@ -44,7 +42,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 * /ʊə/ : **tour** /tʊə/, **poor** /pʊə/
 
 
-## 辅音
+### 辅音
 
 **清辅音**
 * /p/ : **pen** /pen/, **cup** /kʌp/
@@ -70,7 +68,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 * /dz/ : **beds** /bedz/, **dogs** /dɒɡz/
 * /dr/ : **drink** /drɪŋk/, **drive** /draɪv/
 
-### 其他辅音
+#### 其他辅音
 * /h/ : **hot** /hɒt/, **hand** /hænd/
 * /m/ : **man** /mæn/, **room** /ruːm/
 * /n/ : **no** /nəʊ/, **pen** /pen/
@@ -80,20 +78,20 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 * /j/ : **yes** /jes/, **you** /juː/
 * /w/ : **we** /wiː/, **water** /ˈwɔːtə/
 
-# 连读与语流音变
+## 连读与语流音变
 
-## 一、 连读（Linking）
+### 一、 连读（Linking）
 
 连读是指前一个单词的末尾音素与后一个单词的首音素顺畅衔接的现象。
 
-### 1. 辅音 + 元音
+#### 1. 辅音 + 元音
 
 * **规则**：前词以辅音结尾，后词以元音开头，辅音顺势拼入后词的元音。
 * **示例**：
     * **Not at all** $\rightarrow$ /nɒ tæ tɔːl/
     * **Far away** $\rightarrow$ /fɑː rəˈweɪ/
 
-### 2. 元音 + 元音
+#### 2. 元音 + 元音
 
 * **规则**：前词以元音结尾，后词以元音开头，中间需滑音过渡，加入半元音 /j/ 或 /w/ 避免发音卡顿，顺其自然即可。
 * **加 /j/ 音**：当前词结尾元音带有 /iː/, /ɪ/, /eɪ/, /aɪ/, /ɔɪ/ 等（嘴唇呈扁平状）时。
@@ -108,7 +106,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 
 
 
-### 3. 辅音 + 辅音
+#### 3. 辅音 + 辅音
 
 * **同音/近音相连**：前后两个辅音相同或发音部位相近时，**只发一次音**，但需延长停顿/持阻时间（即“叠音现象”）。
     * **Black cat** $\rightarrow$ /blæk kæt/ （前 /k/ 不爆破，稍作停顿后直接发第二个 /k/）
@@ -119,9 +117,9 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 * **异音相连**：参见下文“失去爆破”与“同化”。
 
 
-## 二、 爆破与吞音（Plosives & Elision）
+### 二、 爆破与吞音（Plosives & Elision）
 
-### 1. 失去爆破 / 不完全爆破（Incomplete Plosion）
+#### 1. 失去爆破 / 不完全爆破（Incomplete Plosion）
 
 * **规则**：爆破音（/p/, /b/, /t/, /d/, /k/, /g/）后面紧跟**另一个爆破音、破擦音（/tʃ/, /dʒ/）或摩擦音**时，前一个爆破音只做出发音口型（阻断气流），但不发出爆破声音。
 * **示例**：
@@ -131,7 +129,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 
 
 
-### 2. 吞音 / 省音（Elision）
+#### 2. 吞音 / 省音（Elision）
 
 * **规则**：在快速口语中，为了省力而省略某些音素（主要是弱读的元音或弱势辅音 /t/, /d/）。当 /t/ 或 /d/ 处于两个辅音之间时，常被省略。
     * **Next door** /nekst dɔː/ $\rightarrow$ /neks dɔː/
@@ -143,9 +141,9 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
     * **History** /ˈhɪstəri/ $\rightarrow$ /ˈhɪstri/
 
 
-## 三、 特殊音变现象
+### 三、 特殊音变现象
 
-### 1. 喉塞音（Glottal Stop /ʔ/）
+#### 1. 喉塞音（Glottal Stop /ʔ/）
 
 * **规则**：声带迅速闭合紧缩阻断气流，形成短暂的停顿，然后再快速释放。常用来替代清爆破音 /t/。
     * 处于词尾或元音前的 /t/：**Butter** /bʌʔə/（美式/英式街头口音）、**Water** /wɔːʔə/。
@@ -153,7 +151,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 
 
 
-### 2. 略读与击穿（Assimilation & Penetration）
+#### 2. 略读与击穿（Assimilation & Penetration）
 
 * **H 击穿（H-dropping）**：
     * **规则**：代词（如 *he, him, her, his, have, has, had*）在非句首且不被强调时，开头的 /h/ 往往省略不发，前词尾辅音直接连读到后面的元音上。
@@ -166,7 +164,7 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 
 
 
-### 3. 变音 / 同化（Assimilation）与 美音闪音
+#### 3. 变音 / 同化（Assimilation）与 美音闪音
 
 * **同化 / 顺同化（Co-articulation）**：一个音受到邻音的影响，变成了与邻音相同或相似的音。
     * **音变融合（Yod-coalescence）**：
@@ -186,9 +184,9 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 
 
 
-## 四、 节奏与语音基底
+### 四、 节奏与语音基底
 
-### 1. 弱读（Weak Forms）
+#### 1. 弱读（Weak Forms）
 
 * **规则**：英语是**重音计时语言**（Stress-timed language）。结构词（代词、介词、助动词、冠词、连词）在不被强调时，其元音通常弱化为极短的 **/ə/**、**/ɪ/** 或 **/ʊ/**。
 * **常见表**：
@@ -201,14 +199,14 @@ up 主：[胶学](https://space.bilibili.com/1078480983)、[昂克英文君](htt
 | **and** | /ænd/ | /ənd/ 或 /ən/ |
 | **of** | /ɒv/ | /əv/ |
 
-### 2. 不送气（De-aspiration）
+#### 2. 不送气（De-aspiration）
 
 * **规则**：清辅音（/p/, /t/, /k/）在强读音节中且紧跟在 **/s/ 音之后**时，原本应该强气流送气的音会失去送气（气流减弱），听起来非常接近对应的浊辅音（/b/, /d/, /ɡ/），但**声带依然不振动**。
     * **Spoon** /spuːn/ （/p/ 不送气，听感接近 /b/）
     * **Star** /stɑː/ （/t/ 不送气，听感接近 /d/）
     * **Sky** /skaɪ/ （/k/ 不送气，听感接近 /ɡ/）
 
-# 英文字母
+## 英文字母
 
 | 字母 | DJ 音标 | 字母 | DJ 音标 |
 | --- | --- | --- | --- |
