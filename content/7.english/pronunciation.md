@@ -1,8 +1,8 @@
 ---
 title: 发音
-description: 
+description: 音标、发音技巧
 navigation:
-  icon: 
+  icon: i-lucide-volume-2
 ---
 
 # 发音
